@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: goldenrod;
+
+  }
+  
+  header {
+    
+    position: sticky;
+    position: fixed;
+    background-color: #333;
+    padding: -5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 1600px;
+height: 150px;
+  }
+  
+.Aaa img{
+  margin-top: 152px;
+}
+  
+  .logo img {
+    max-width: 50px; /* Adjust as needed */
+    text-align: center;
+
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;  
+    padding: 0;
+    display: flex;
+    text-align: center;
+
+  }
+  
+  nav li {
+    margin: 50px;
+    text-align: center;
+
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+  }
+   li :hover{
+    border: 1px solid #333;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    color: #333;
+  }
+  li :hover{
+    height: 50px;
+
+  }
+
+  *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.Aa{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 150px;
+}
+
+ 
+.DA{
+  overflow-y: auto; 
+  border: 1px solid goldenrod;
+  overflow-x: hidden;
+}
+.DA{
+  height: 620px;
+  width: 400px;
+  margin-top:-550px;
+  margin-left: 10px;
+  
+}
+.da{
+  margin-left: 12px;
+}
